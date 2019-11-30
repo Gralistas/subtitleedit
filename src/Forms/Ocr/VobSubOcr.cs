@@ -5547,7 +5547,6 @@ namespace Nikse.SubtitleEdit.Forms.Ocr
         {
             if (_tesseractRunner == null)
             {
-                //_tesseractThreadRunner = new TesseractThreadRunner(OcrDone);
                 _tesseractRunner = new TesseractRunner();
             }
 
